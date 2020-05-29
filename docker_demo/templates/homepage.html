@@ -1,0 +1,29 @@
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h1>Employee List</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Salary</th>
+  </tr>
+  {% for e in employee_list %}
+	  <tr>
+	    <td>{{e.name}}</td>
+	    <td>{{e.age}}</td>
+	    <td>{{e.salary}}</td>
+	  </tr>
+   {% endfor %}
+</table>
+
+</body>
+</html>

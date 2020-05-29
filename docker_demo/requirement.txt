@@ -1,0 +1,6 @@
+asgiref
+Django
+psycopg2>=2.7,<3.0
+#pkg-resources
+pytz
+sqlparse
